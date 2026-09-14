@@ -1,5 +1,5 @@
 CXX = clang++
-CXXFLAGS = -std=c++20 -Wall -Wextra -g -I/opt/homebrew/include
+CXXFLAGS = -std=c++20 -Wall -Wextra -O2 -g -I/opt/homebrew/include
 LDFLAGS = -L/opt/homebrew/lib -lraylib -framework Cocoa -framework IOKit -framework OpenGL
 
 particlelife: main.cpp particle_life.cpp particle_life.hpp
