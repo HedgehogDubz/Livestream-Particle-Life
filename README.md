@@ -3,10 +3,30 @@ Heyo! This is my version of Particle Life that I built during a livestream! Afte
 ## Livestream?
 Now and then, I go livestreaming to learn something new each time, without using AI. This time it was simulations and graphics. We reached a peak total of 10 viewers!!! 
 
-## How to run 
-(g++)In the terminal, run:
-g++ -02 particle_life.cpp -o particle_life && ./particle_life
+## How to Run
 
-(clang)
-clang -02 particle_life.cpp -o particle_life && ./particle_life
+### Using `make`
+
+Run:
+
+```bash
+make && ./particle_life
+```
+
+### Using `g++`
+
+Run:
+
+```bash
+g++ -O2 particle_life.cpp -o particle_life && ./particle_life
+```
+
+### Using `clang`
+
+Run:
+
+```bash
+clang -O2 particle_life.cpp -o particle_life && ./particle_life
+```
+
 
